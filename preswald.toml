@@ -1,0 +1,18 @@
+# Preswald configuration file
+
+[project]
+title = "Student Success Analyzer"
+version = "0.1.0"
+port = 8501
+slug = "student-success-analyzer"
+entrypoint = "hello.py"
+
+[branding]
+name = "Student Success Analyzer"
+logo = "📊"
+favicon = "📚"
+primaryColor = "#4B6BAA"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
